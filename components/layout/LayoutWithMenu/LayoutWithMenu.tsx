@@ -95,6 +95,7 @@ export default function LayoutWithMenuComponent({ children }) {
   const menu: Array<{ name: string; to: string; icon?: ReactNode }> = [
     { name: 'Dashboard', to: '/', icon: <DashboardIcon /> },
     { name: 'Contatos', to: '/customers', icon: <PeopleIcon /> },
+    { name: 'Users', to: '/users', icon: <PeopleIcon /> },
   ];
 
   const handleDrawerOpen = () => {
